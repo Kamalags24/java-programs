@@ -12,8 +12,10 @@ public class reverse {
     
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+	System.out.println("Enter size of the array : ");
  	int input2 = s.nextInt();
 	int[] input1 = new int[input2];
+	System.out.println("Enter "+input1+" elements into array : ");
 	for(int i=0;i<inpu2;i++){
 	     input1[i] = s.nextInt();
 	}
